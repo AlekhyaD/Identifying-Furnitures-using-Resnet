@@ -12,10 +12,10 @@ git clone https://github.com/andreiliphd/deploying-neural-network-flask.git
 ```
 Install all the dependencies using docker.
 ### Docker
-To run this code using Docker container execute the following commands into project root directory
+To build the image using Docker container execute the following commands into project root directory
 ```
-$ docker build -t python-neural-network .
-$ docker run -p 8080:8080 -d python-neural-network
+$ docker build -t alekhyadronavalli/furniture_classification:0.0.1.RELEASE .
+
 ```
 # Model 
 To run this, download the model and place it in the project root directory with filename as `model.h5`
