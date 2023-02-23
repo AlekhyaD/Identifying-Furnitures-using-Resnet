@@ -1,2 +1,2 @@
 # Identifying-Furnitures-using-Resnet
-Furniture classification
+##Set up the environment##
