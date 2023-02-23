@@ -27,7 +27,7 @@ To start the local server using flask, use the following command
 python app.py
 ```
 # Outputs
-
+![output](https://github.com/AlekhyaD/Identifying-Furnitures-using-Resnet/blob/main/Capture.PNG)
 # To Train - Scratch
 **Step 1:**
 To train the model, download the following and place it under `data` folder,
