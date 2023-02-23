@@ -19,7 +19,7 @@ $ docker run -p 8080:8080 -d python-neural-network
 ```
 # Model 
 To run this, download the model and place it in the project root directory with filename as `model.h5`
-Download Link --> [model.h5]()
+Download Link --> [model.h5](https://drive.google.com/drive/folders/1MLgclJRSRJUKOftHP7wklIfZ95HThKj6?usp=sharing)
 
 # Flask - Local Server
 To start the local server using flask, use the following command
