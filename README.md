@@ -8,7 +8,7 @@ Our approach involves using the ResNet-152 as backbone model to analyze and proc
 # Environment Setup
 Clone this repo:
 ```
-git clone https://github.com/andreiliphd/deploying-neural-network-flask.git
+git clone https://github.com/AlekhyaD/Identifying-Furnitures-using-Resnet.git
 ```
 Install all the dependencies using docker.
 ### Docker
@@ -17,13 +17,13 @@ To build the image using Docker container execute the following commands into pr
 Make sure Docker is installed
 ```
 $ docker build -t alekhyadronavalli/furniture_classification:0.0.1.RELEASE .
-
+```
 Run command: docker-compose up
 
 Note that if you make changes to Dockerfile or requirements.txt, you will need to run command: docker-compose build to rebuild the image.
 After running the app, it should be located at http://localhost/ (port 8000). Note this is an override of the default port 5000 for Flask apps, but on M1 macs, port 5000 is sometimes used by a process.
 To stop the running web server from terminal, press Control + C on the keyboard.
-```
+
 # Model 
 To run this, download the model and place it in the project root directory with filename as `model.h5`
 Download Link --> [my_model1.h5](https://drive.google.com/drive/folders/1MLgclJRSRJUKOftHP7wklIfZ95HThKj6?usp=sharing)
